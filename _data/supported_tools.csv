@@ -1,0 +1,76 @@
+rowspan,VVC_Tools_category,VVC_Tools,Template,SSE2,SSE4,AVX2,NEON,GPU
+8,Intra,4-tap interpolation filter,1,4,4,4,4,5
+,,CCLM,2,2,4,4,4,5
+,,Intra modes 93,1,4,4,4,4,5
+,,ISP,1,5,5,5,5,5
+,,MIP,1,1,,,,5
+,,MRL,1,5,5,5,5,5
+,,PDPC,1,1,,,,5
+,,WAIP,1,5,5,5,5,5
+8,Transform,DQ,1,5,5,5,5,5
+,,JCCR,1,5,5,5,5,5
+,,LFNST,1,1,4,4,4,5
+,,Max size 32x32,1,,,,,5
+,,MTS,1,2,4,4,4,5
+,,SBT,1,5,5,5,5,5
+,,SDH,1,5,5,5,5,5
+,,Transform skip,1,5,5,5,5,5
+6,Filters,ALF,1,1,4,4,4,5
+,,CC-ALF,1,1,4,4,4,5
+,,DBF,1,1,4,4,4,5
+,,LMCS,1,4,4,4,4,5
+,, Virtual Boundaries,3,5,5,5,5,5
+,,SAO,1,1,4,4,4,5
+16,Inter,4-tap Chroma interpolation filter,1,1,4,4,1,5
+,,8-tap Luma interpolation filter,1,1,4,4,1,5
+,,AMVP,1,,,,,5
+,,AMVR,1,5,5,5,5,5
+,,BCW,1,,,,,5
+,,BDOF,1,1,,,,5
+,,CIIP,1,1,,,,5
+,,DMVR,1,1,,,,5
+,,GPM,1,1,,,,5
+,,HMVP,1,5,5,5,5,5
+,,MMVD,1,,,,,5
+,,PROF,1,1,4,4,4,5
+,,SbTMVP,1,,,,,5
+,,Pair-Wise Average MV Prediction ,1,5,5,5,5,5
+,,SMVD,1,,,,,5
+,,TMVP,1,5,5,5,5,5
+9,Block Partitioning,CST,1,5,5,5,5,5
+,,LDT,1,5,5,5,5,5
+,,Max block size 128x128,1,5,5,5,5,5
+,,MTT,1,5,5,5,5,5
+,,QT,1,5,5,5,5,5
+,,Slice,2,5,5,5,5,5
+,,Subpicture,3,5,5,5,5,5
+,,Tile,2,5,5,5,5,5
+,,VDPU,1,5,5,5,5,5
+3,Parallel processing,Frame-based,1,5,5,5,5,5
+,,Tile,1,5,5,5,5,5
+,,WPP,3,5,5,5,5,5
+5,Screen content,ACT,3,,,,,5
+,,BDPCM,3,,,,,5
+,,IBC,3,,,,,5
+,,Palette mode,3,,,,,5
+,,TSRC,1,5,5,5,5,5
+2,Advanced tools,PCM,3,,,,,5
+,,RPR,1,4,4,4,4,5
+3,bit-depth,8,1,4,4,4,4,5
+,,10,1,1,4,4,4,5
+,,12,3,4,4,4,4,5
+5,Post-processing non-normative tools,CTI,3,4,4,4,4,5
+,,Film-grain ,1,4,4,4,4,4
+,,quality-enhancement,3,4,4,4,4,5
+,,SDR to HDR,3,4,4,4,4,4
+,,super-resolution,3,4,4,4,4,4
+4,More advanced non-normative features,Analyser,3,5,5,5,5,5
+,,Energy report & optimisation,3,5,5,5,5,5
+,,Blind VVC video quality metric (B-VMAF),3,5,5,5,5,4
+,,DeepFake video detection,3,5,5,5,5,4
+4,Color space,04:00:00,3,5,5,5,5,5
+,,04:02:00,1,5,5,5,5,5
+,,04:02:02,3,5,5,5,5,5
+,,04:04:04,3,5,5,5,5,5
+2,Headers ,NALU,3,5,5,5,5,5
+,,VPS,3,5,5,5,5,5

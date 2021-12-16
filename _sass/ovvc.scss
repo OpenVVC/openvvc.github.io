@@ -1,0 +1,61 @@
+
+#mainlogo {
+  width: 250px;
+  position: fixed;
+  top: 220px;
+  left:50%;
+  margin-left:-700px;
+  text-align: right;
+}
+
+
+#toolTable {
+  .toolok{
+    text-align: center;
+    // background: #DCEDC8;
+    // background-image: url(../images/tick.png);
+    // background-size: contain;
+    // background-repeat: no-repeat;
+    // background-position: center;
+  }
+  .toolok::before{
+    content:"\2705"
+  }
+  .tooloknok{
+    text-align: center;
+    // background: #DCEDC8;
+  }
+  .tooloknok::before{
+    content:"\2705"
+  }
+  .toolnok{
+    text-align: center;
+    // background: #ffcdd2;
+    // background-image: url(../images/cross.png);
+    // background-size: contain;
+    // background-repeat: no-repeat;
+    // background-position: center;
+  }
+  .toolnok::before{
+    content:"\274C"
+  }
+  .toolna{
+    text-align: center;
+    // background: #ccc;
+  }
+  .toolna::before{
+    content:"\2796"
+  }
+}
+.logo_container{
+  width: 22%;
+  margin:0 2%;
+  display: inline-block;
+  text-align: center;
+  .logo-ack{
+    max-height: 80px;
+    // width: 23%;
+    margin:0 auto;
+    // display: block;
+  }
+}

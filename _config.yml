@@ -1,1 +1,6 @@
-theme: jekyll-theme-minimal
+title: OpenVVC
+description: Open-source software VVC decoder library licensed under LGPLv2.1
+logo: ./assets/images/Logo_OVVC.png
+show_downloads: false
+theme: jekyll-theme-leap-day
+repository_url: https://github.com/OpenVVC/OpenVVC
